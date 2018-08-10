@@ -1,0 +1,20 @@
+net: "caffe/cifar10/googlenet/train_val.prototxt"
+test_initialization: false
+test_iter: 100
+test_interval: 20
+
+base_lr: 0.1
+lr_policy: "multistep"
+stepvalue: 32000
+stepvalue: 48000
+
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+
+display: 10
+max_iter: 390
+snapshot: 100
+snapshot_prefix: "caffe/cifar10/googlenet/model/snapshot"
+solver_mode: CPU
+# type: "Nesterov"
