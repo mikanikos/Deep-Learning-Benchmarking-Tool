@@ -1,2 +1,1 @@
 # DeepLearningBenchmarkingTool
-# DeepLearningBenchmarkingTool
