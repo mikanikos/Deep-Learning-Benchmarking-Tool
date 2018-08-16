@@ -2,9 +2,13 @@
 Project work carried out at the Department of Computer Engineering (DISCA) of Technical University of Valencia (UPV) under the supervision of Professors Federico Silla Jiménez and Carlos Reaño González. It is a very simple suite which allows users to analyze the performance of a specific set of Deep Learning parameters. It currently supports:
 
 Metrics: average training speed, GPU memory and power usage
+
 Datasets: ImageNet, CIFAR10, MNIST
+
 Models: LeNet, AlexNet, ResNet50, GoogLeNet, VGG16
+
 Frameworks: Caffe, TensorFlow, Pytorch, MXNet, CNTK
+
 Hardware configurations for training: CPU, GPU and multi-GPU (up to 4 GPUS)
 
 The entire tool takes inspiration from other popular projects and it implements some of the core ideas of DLBENCH (https://github.com/hclhkbu/dlbench), especially for acquiring GPU data and monitoring the training process.
