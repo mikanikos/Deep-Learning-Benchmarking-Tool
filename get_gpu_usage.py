@@ -10,7 +10,6 @@ def benchmark_is_runing(running_cmd):
     try:
         result = subprocess.check_output(cmd, shell=True)
         if len(result) > 0:
-#            print "Attivo"
             return True
         else:
             return False
@@ -53,15 +52,9 @@ def get_average_gpu_power_and_mem(gpu_name, log_file):
             powers.append(power)
             mems.append(memory)
     log.close()
-#    powers = powers[~np.isnan(powers)]
-#    mems = mems[~np.isnan(mems)]
-#    print (powers)
-    return np.mean(powers[2:len(powers)-1]), np.mean(mems[2:len(mems)-1]) 
-#    return np.nanmean(powers), np.nanmean(mems)
+    return np.mean(powers[2:len(powers)-1]), np.mean(mems[2:len(mems)-1])
 
 
 if __name__ == '__main__':
-    #running_cmd = 'python testing.py'
-    #start_collecting_gpu_power(running_cmd, 'debug.log')
     power, mem = get_average_gpu_power_and_mem('P100', 'logs/power_caffe_0_mnist_lenet_Mon_Jun__4_11:27:27_2018.log')
     print (power, mem)
