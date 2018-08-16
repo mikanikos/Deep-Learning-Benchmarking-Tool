@@ -15,7 +15,7 @@ The entire tool takes inspiration from other popular projects and it implements 
 
 First, in order to run a benchmark it is necessary to download the dataset you want to use and convert it to the framework-specific format. Refer to each tool folder for the details. After that, the data path for each file have to be modified according to the new location, it takes just a command with sed to change the default path /scratch/andpic/<datasetName>/<frameworkRecords> for every file in the entire project (<datasetName> could be "mnist", "cifar10" or "imageNet"; <frameworkRecords> could be "caffeRecords", "tfRecords", "pytorchRecords", "mxnetRecords" or "cntkRecords").
 
-Once the dataset have been set-up, run a benchmark through main.py (use --help for the parameters).
+Once the dataset have been set-up, run a benchmark using main.py (use --help for the parameters).
 
 Example: 
 python main.py -dataset imagenet -model alexnet -tool tensorflow -num_gpus 1 -gpu P100
