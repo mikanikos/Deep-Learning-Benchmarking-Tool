@@ -13,7 +13,7 @@ Hardware configurations for training: CPU, GPU and multi-GPU (up to 4 GPUs)
 
 The entire tool takes inspiration from other popular projects and it implements some of the core ideas of DLBENCH (https://github.com/hclhkbu/dlbench), especially for acquiring GPU data and monitoring the training process.
 
-First, in order to run a benchmark it is necessary to download the dataset you want to use and convert it to the framework-specific format. Refer to each tool folder for the details. After that, the data path for each file have to be modified according to the new location, it takes just a command with sed to change the default path /scratch/andpic/<datasetName>/<frameworkRecords> for every file in the entire project (<datasetName> could be "mnist", "cifar10" or "imageNet"; <frameworkRecords> could be "caffeRecords", "tfRecords", "pytorchRecords", "mxnetRecords" or "cntkRecords").
+First, in order to run a benchmark it is necessary to download the dataset you want to use and convert it to the framework-specific format. Refer to each tool website for the details. After that, the data path for each file have to be modified according to the new location, it takes just a command with sed to change the default path /scratch/andpic/<datasetName>/<frameworkRecords> for every file in the entire project (<datasetName> could be "mnist", "cifar10" or "imageNet"; <frameworkRecords> could be "caffeRecords", "tfRecords", "pytorchRecords", "mxnetRecords" or "cntkRecords").
 
 Once the dataset have been set-up, run a benchmark using main.py (use --help for the parameters). 
 
