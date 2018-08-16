@@ -2,21 +2,11 @@
 
 Project work carried out at the Department of Computer Engineering (DISCA) of Technical University of Valencia (UPV) under the supervision of Professors Federico Silla Jiménez and Carlos Reaño González. It is a very simple suite which allows users to analyze the performance of a specific set of Deep Learning parameters. It currently supports:
 
-| Metrics  | average training speed, GPU memory and power usage  |
-| Datsets	 | ImageNet, CIFAR10, MNIST  |
-| Models  | LeNet, AlexNet, ResNet50, GoogLeNet, VGG16  |
-| Frameworks  | Caffe, TensorFlow, Pytorch, MXNet, CNTK  |
-| Hardware configurations  | CPU, GPU and multi-GPU (up to 4 GPUs)	 |
-
-Metrics: average training speed, GPU memory and power usage
-
-Datasets: ImageNet, CIFAR10, MNIST
-
-Models: LeNet, AlexNet, ResNet50, GoogLeNet, VGG16
-
-Frameworks: Caffe, TensorFlow, Pytorch, MXNet, CNTK
-
-Hardware configurations for training: CPU, GPU and multi-GPU (up to 4 GPUs)
+*  3 Metrics: average training speed, GPU memory and power usage
+*  3 Datasets: ImageNet, CIFAR10, MNIST
+*  5 Models: LeNet, AlexNet, ResNet50, GoogLeNet, VGG16
+*  5 Frameworks: Caffe, TensorFlow, Pytorch, MXNet, CNTK
+*  4 Hardware configurations for training: CPU, GPU and multi-GPU (2 and 4 GPUs)
 
 ## Getting Started
 
@@ -50,5 +40,12 @@ Please note that the most relevant networks' parameters can be changed directly 
 
 ## Acknowledgments
 
-* The entire tool takes inspiration from other popular projects and it implements some of the core ideas of DLBENCH (https://github.com/hclhkbu/dlbench), especially for acquiring GPU data and monitoring the training process.
-* Models' implementations have been taken from official sources: 
+The entire tool takes inspiration from other popular projects and it implements some of the core ideas of DLBENCH (https://github.com/hclhkbu/dlbench), especially for acquiring GPU data and monitoring the training process.
+
+Networks' implementations and configurations have been taken from official sources:
+
+*  https://github.com/NVIDIA/caffe for Caffe models
+*  https://github.com/tensorflow/benchmarks for TensorFlow models
+*  https://github.com/pytorch/examples for PyTorch models
+*  https://github.com/apache/incubator-mxnet for MXNet models
+*  https://github.com/Microsoft/CNTK for CNTK models
