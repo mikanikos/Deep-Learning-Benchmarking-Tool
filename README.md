@@ -18,7 +18,7 @@ It is necessary to install the frameoworks you want to use, make sure they work 
 
 ### Dataset preparation
 
-In order to run a benchmark, one or more datasetes must be downloaded and converted to the framework-specific format. Refer to the websites of each tool for the details. After that, the data path for each file has to be modified according to the new location, it takes just a sed command to change the default path /scratch/andpic/<datasetName>/<frameworkRecords> for every file in the entire project (<datasetName> could be "mnist", "cifar10" or "imageNet"; <frameworkRecords> could be "caffeRecords", "tfRecords", "pytorchRecords", "mxnetRecords" or "cntkRecords").
+In order to run a benchmark, one or more datasetes must be downloaded and converted to the framework-specific format. Refer to the websites of each tool for the details (links below). After that, the data path for each file has to be modified according to the new location, it takes just a sed command to change the default path /scratch/andpic/<datasetName>/<frameworkRecords> for every file in the entire project (<datasetName> could be "mnist", "cifar10" or "imageNet"; <frameworkRecords> could be "caffeRecords", "tfRecords", "pytorchRecords", "mxnetRecords" or "cntkRecords").
   
 ## Running benchmarks
 
