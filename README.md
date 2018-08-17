@@ -40,12 +40,12 @@ Please note that the most relevant networks' parameters can be changed directly 
 
 ## Acknowledgments
 
-The entire tool takes inspiration from other popular projects and it implements some of the core ideas of DLBENCH (https://github.com/hclhkbu/dlbench).
+The entire tool takes inspiration from other popular projects and it implements several useful ideas from DLBENCH project (https://github.com/hclhkbu/dlbench), copyright notice and LICENSE in DeepLearningBenchmarkingTool/LICENSE.
 
 Networks' implementations and configurations have been taken from official sources and then modified:
 
-*  https://github.com/NVIDIA/caffe for Caffe models
-*  https://github.com/tensorflow/benchmarks for TensorFlow models
-*  https://github.com/pytorch/examples for PyTorch models
-*  https://github.com/apache/incubator-mxnet for MXNet models
-*  https://github.com/Microsoft/CNTK for CNTK models
+*  https://github.com/NVIDIA/caffe for Caffe models, copyright notice and LICENSE in DeepLearningBenchmarkingTool/caffe/LICENSE
+*  https://github.com/tensorflow/benchmarks for TensorFlow models, copyright notice and LICENSE in DeepLearningBenchmarkingTool/tensorflow/LICENSE
+*  https://github.com/pytorch/examples for PyTorch models, copyright notice and LICENSE in DeepLearningBenchmarkingTool/pytorch/LICENSE
+*  https://github.com/apache/incubator-mxnet for MXNet models, copyright notice and LICENSE in DeepLearningBenchmarkingTool/mxnet/LICENSE
+*  https://github.com/Microsoft/CNTK for CNTK models, copyright notice and LICENSE in DeepLearningBenchmarkingTool/cntk/LICENSE
